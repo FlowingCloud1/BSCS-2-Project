@@ -1,0 +1,141 @@
+@font-face {
+    font-family: For;
+    src: url(Font/Daughter\ of\ Fortune.ttf);
+
+    font-family: Opti;
+    src: url(Font/OptimusPrincepsSemiBold.ttf);
+
+    font-family: Magic;
+    src: url(Font/Magical\ Holiday.ttf);
+
+    font-family: opti;
+    src: url(Font/OptimusPrinceps.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(Themes/Wr.jpg);
+    background-size: 200%;
+}
+
+
+
+header {
+    height: 10vh;
+    text-align: center;
+    width: 100%;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, .2);
+    top: 0;
+    line-height: 10vh;
+    font-family: 'opti',sans-serif;
+    color: rgba(241, 115, 65, 0.623);
+    
+}
+
+main{
+    margin-top: 40px;
+}
+
+.calendar{
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.dex-calendar{
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, .2), -9px -3px 11px 2px #fff;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.dex-calendar{
+    text-align: center;
+}
+
+.days{
+    margin-bottom: 1rem;
+    text-size-adjust: 10%;
+
+}
+
+
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    list-style: none;
+    gap: 1rem;
+}
+
+li{
+    text-align: center;
+    
+}
+
+.Prev-month,
+.Prev-month~li{
+    opacity: .1;
+}
+
+.First-day,
+.First-day~li{
+    opacity: 1!important;
+    font-weight: 1000;
+}
+
+.Last-day~li{
+    opacity: .5!important;
+    font-weight: 200;
+}
+
+li:nth-child(7n+1) {
+    color: rgb(245, 55, 55);
+}
+
+li:hover{
+    background: linear-gradient(to bottom, #d9dddf 0%, #f1f07b 100%)
+}
+
+h1{
+    color: rgb(245, 195, 32);
+}
+
+
+a {
+    color: rgb(12, 12, 12);
+  }
+
+  
+  a:visited {
+    text-decoration: none;
+    
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    
+  }
+  
+  a:active {
+    text-decoration: underline;
+    
+  }
+
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    clear: both;
+    padding: 10px;
+    background-color:0;
+    background: linear-gradient(to bottom, #dddedf 10%, #f1b738 100%)
+
+  }

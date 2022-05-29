@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Magical;
+    src: url(Font/Magical\ Holiday.ttf);
+
+    font-family: Augs;
+    src: url(Font/Hey\ August.ttf);
+
+    font-family:For;
+    src: url(Font/Daughter\ of\ Fortune.ttf);
+
+    font-family:opti;
+    src: url(Font/OptimusPrinceps.ttf);
+
+    font-family:Opti;
+    src: url(Font/OptimusPrincepsSemiBold.ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(Themes/Wr.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    
+    }
+    
+    .calendar{
+        width: 45%;
+        font-weight:bold ;
+        font-family: 'opti',sans-serif;
+        color: rgb(245, 180, 1);
+        margin-left: 10px;
+        float: left;
+        padding-top: 20px;
+    }
+    
+    .month{
+        text-align: center;
+        background:0;
+        font-size: 80px;
+        letter-spacing: 1px;
+        color:rgb(223, 171, 0);
+        border: 5px 0;
+        border-radius: 10px;
+        font-family: 'opti',sans-serif;
+        margin-left: 10px;
+        float: left;
+        padding-top: 20px;
+        
+    }
+    
+    table, th, td{
+        width: 100%;
+        table-layout: fixed;
+        text-align: center;
+        font-size: 27px;
+        font-family: 'For', Times, serif;
+        border-radius: 10px;
+        border: 5px solid rgb(255, 255, 255);
+        
+    }
+    
+    tr, th,td{
+        padding: 10px;
+        margin: auto;
+        
+    }
+    
+    th{
+        background: #807b7b;
+        color:0;
+        font-family:'Magical',sans-serif;
+    }
+    
+    td{
+        background:rgb(219, 219, 219);
+        color: rgb(253, 188, 7);
+        font-family: 'For',sans-serif;
+    }
+    
+    td:hover{
+    background: 0;
+    }
+    
+
+    
